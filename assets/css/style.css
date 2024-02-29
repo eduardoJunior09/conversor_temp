@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #b0ccbc;
+  color: #353535;
+}
+
+/*Header*/
+header {
+  width: 90%;
+  height: auto;
+  margin: 30px auto;
+  text-align: center;
+}
+
+header h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/*Section*/
+.container {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.temp-input {
+  width: 150px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #353535;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.temp-input input {
+  font-size: 1rem;
+  background-color: #353535;
+}
+
+.temp-input select {
+  font-size: 0.9rem;
+  padding: 3px;
+  transition: 0.5s ease-in-out;
+  background-color: #22593a;
+}
+
+.erro-null, .erro-campus{
+  margin-top: 10px;
+  font-weight: bolder;
+  color: red;
+  display: none;
+}
+
+.btn {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  width: 150px;
+  min-width: 150px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #22593a;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/*Hover*/
+.btn button:hover {
+  background-color: #207e49;
+}
+
+.temp-input select:focus,
+.temp-input select:hover {
+  background-color: #207e49;
+}
+select option:checked {
+  background-color: #22593a; /* Cor de fundo quando selecionado */
+}

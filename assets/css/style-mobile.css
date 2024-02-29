@@ -1,0 +1,10 @@
+@media (max-width: 425px) {
+  header h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+  }
+
+  header p {
+    font-size: 0.8 rem;
+  }
+}
